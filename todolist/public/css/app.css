@@ -1,0 +1,183 @@
+.header
+{
+	padding: 10px;
+	border-bottom: 2px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logout
+{
+	display: grid;
+}
+
+.add-task-form
+{
+	padding: 10px;
+}
+
+.form-content
+{
+	display: flex;
+}
+
+.form-content input[type='submit']
+{
+	margin-left: 3%;
+}
+
+.tasks-list
+{
+	padding: 10px;
+}
+
+.change-state-form
+{
+	border: none !important;
+}
+
+.task-list-content li
+{
+	list-style: none;
+	display: flex;
+	border: 1px solid #ccc;
+	justify-content: space-between;
+	padding:  .5rem .2rem;
+	margin-bottom: 1rem;
+}
+
+.task-completed
+{
+	text-decoration: line-through;
+}
+
+
+
+.tasks-list form input[type='submit']
+{
+	font-size: 12px;
+}
+
+.task-tabs ul li
+{
+	width: 33%;
+}
+
+.tasks-list-row
+{
+	display: grid;
+}
+
+.tasks-list-row a
+{
+	border-bottom: 1px dotted;
+	font-size: 12px;
+}
+
+/*states*/
+
+.in_expect
+{
+	color: rgb(150,20, 0);
+}
+
+.in_progress
+{
+	color: rgb(150, 100, 0);
+}
+
+.in_testing
+{
+	color: rgb(0,100,150);
+}
+
+.in_checking
+{
+	color: rgb(0, 100, 110);
+}
+
+.completed
+{
+	color: rgb(0, 100, 0);
+}
+
+.user-list-content li
+{
+	list-style: none;
+	display: flex;
+	border: 1px solid #ccc;
+	justify-content: space-between;
+	padding:  .5rem .2rem;
+	margin-bottom: 1rem;
+}
+
+.users-list
+{
+	padding: 10px;
+}
+
+.user-info-block
+{
+	display: grid;
+}
+
+.user-info-block a
+{
+	font-size: 18px;
+}
+
+.users-list-row
+{
+	display: grid;
+}
+
+.users-list-row a
+{
+	font-size: 12px;
+}
+
+.header-li
+{
+	border: 0 !important;
+	font-weight: bold;
+}
+
+/* Login form */
+
+.login-form
+{
+	width: 50%;
+	padding: 10px;
+	margin-left: 25%;
+	margin-top: 3%;
+}
+
+.register-ref
+{
+	text-align: center;
+	font-size: 18px;
+}
+
+.form-check
+{
+	padding: 10px;
+	color: red;
+}
+
+.uinfo_header
+{
+	margin-top: 5%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.uinfo_btn
+{
+	float: right;
+}
+
+.table tr td:first-child
+{
+	font-weight: bold;
+}
